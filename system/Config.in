@@ -483,4 +483,19 @@ config BR2_ROOTFS_POST_SCRIPT_ARGS
 	  directory / images directory. The arguments in this option will be
 	  passed *after* those.
 
+config BR2_ROOTFS_RESIZE_ON_BOOT
+	bool "Resize the root filesystem on first boot"
+	default n
+	help
+	  Typically, when using DD to write the root filesystem to a device,
+	  the root fileystem partition does not occupy the full space 
+	  available. This option will resize the partition to file the remaining
+	  space on the device.
+
+	  Say no here if you would rather the root filesystem to remain
+	  it's original size, typically when you are not writing to a device with
+	  DD.
+
+	  If unsure, say N.
+
 endmenu
