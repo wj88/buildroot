@@ -1,13 +1,8 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2016.05-g4c23ce2-dirty Configuration
+# Buildroot 2016.05-gf95f8c4b Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
-BR2_HOST_GCC_AT_LEAST_4_6=y
-BR2_HOST_GCC_AT_LEAST_4_7=y
-BR2_HOST_GCC_AT_LEAST_4_8=y
-BR2_HOST_GCC_AT_LEAST_4_9=y
-BR2_HOST_GCC_AT_LEAST_5=y
 
 #
 # Target options
@@ -272,8 +267,7 @@ BR2_SYSTEM_DHCP=""
 BR2_ROOTFS_USERS_TABLES="/tmp/users_table"
 BR2_ROOTFS_OVERLAY="board/hardkernel/odroidc2/rootfs/"
 BR2_ROOTFS_POST_BUILD_SCRIPT=""
-BR2_ROOTFS_POST_IMAGE_SCRIPT="board/hardkernel/odroidc2/post-image.sh"
-BR2_ROOTFS_POST_SCRIPT_ARGS=""
+BR2_ROOTFS_POST_IMAGE_SCRIPT=""
 # BR2_ROOTFS_RESIZE_ON_BOOT is not set
 
 #
@@ -1755,7 +1749,7 @@ BR2_PACKAGE_MONGREL2_LIBC_SUPPORTS=y
 # BR2_PACKAGE_OPEN_PLC_UTILS is not set
 # BR2_PACKAGE_OPENNTPD is not set
 # BR2_PACKAGE_OPENOBEX is not set
-# BR2_PACKAGE_OPENSSH=y
+# BR2_PACKAGE_OPENSSH is not set
 # BR2_PACKAGE_OPENSWAN is not set
 # BR2_PACKAGE_OPENVPN is not set
 # BR2_PACKAGE_P910ND is not set
